@@ -1,10 +1,10 @@
-[![Deploy](https://github.com/tiangolo/nginx-rtmp-docker/workflows/Deploy/badge.svg)](https://github.com/tiangolo/nginx-rtmp-docker/actions?query=workflow%3ADeploy)
+[![Deploy](https://github.com/hrmuwanika/nginx-rtmp-docker/workflows/Deploy/badge.svg)](https://github.com/hrmuwanika/nginx-rtmp-docker/actions?query=workflow%3ADeploy)
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`latest` _(Dockerfile)_](https://github.com/tiangolo/nginx-rtmp-docker/blob/master/Dockerfile)
+* [`latest` _(Dockerfile)_](https://github.com/hrmuwanika/nginx-rtmp-docker/blob/master/Dockerfile)
 
-**Note**: Note: There are [tags for each build date](https://hub.docker.com/r/tiangolo/nginx-rtmp/tags). If you need to "pin" the Docker image version you use, you can select one of those tags. E.g. `tiangolo/nginx-rtmp:latest-2020-08-16`.
+**Note**: Note: There are [tags for each build date](https://hub.docker.com). If you need to "pin" the Docker image version you use, you can select one of those tags. E.g. `tiangolo/nginx-rtmp:latest-2020-08-16`.
 
 # nginx-rtmp
 
@@ -18,9 +18,7 @@ This was inspired by other similar previous images from [dvdgiessen](https://hub
 
 The main purpose (and test case) to build it was to allow streaming from [**OBS Studio**](https://obsproject.com/) to different clients at the same time.
 
-**GitHub repo**: <https://github.com/tiangolo/nginx-rtmp-docker>
-
-**Docker Hub image**: <https://hub.docker.com/r/tiangolo/nginx-rtmp/>
+**GitHub repo**: <https://github.com/hrmuwanika/nginx-rtmp-docker>
 
 ## Details
 
@@ -29,7 +27,7 @@ The main purpose (and test case) to build it was to allow streaming from [**OBS 
 * For the simplest case, just run a container with this image:
 
 ```bash
-docker run -d -p 1935:1935 --name nginx-rtmp tiangolo/nginx-rtmp
+docker run -d -p 1935:1935 --name nginx-rtmp hrmuwanika/nginx-rtmp
 ```
 
 ## How to test with OBS Studio and VLC
