@@ -27,7 +27,7 @@ The main purpose (and test case) to build it was to allow streaming from [**OBS 
 * For the simplest case, just run a container with this image:
  
 ```bash
-docker run -d -p 1935:1935 -p 8080:80 --name nginx-rtmp hrmuwanika/nginx_rtmp
+docker run -d -p 1935:1935 -p 8080:8080 --name nginx-rtmp hrmuwanika/nginx_rtmp
 ```
 
 ## How to test with OBS Studio and VLC
