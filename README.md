@@ -39,7 +39,7 @@ docker run -d -p 1935:1935 -p 8080:80 --name nginx-rtmp hrmuwanika/nginx_rtmp
 * Click the "Settings" button
 * Go to the "Stream" section
 * In "Stream Type" select "Custom Streaming Server"
-* In the "URL" enter the `rtmp://<ip_of_host>:1935/live` replacing `<ip_of_host>` with the IP of the host in which the container is running. For example: `rtmp://45.99.213.78:1935/live`
+* In the "URL" enter the `rtmp://<ip_of_host>:1935/stream` replacing `<ip_of_host>` with the IP of the host in which the container is running. For example: `rtmp://45.99.213.78:1935/stream`
 * In the "Stream key" use a "key" that will be used later in the client URL to display that specific stream. For example: `stream_name`
 * Click the "OK" button
 * In the section "Sources" click de "Add" button (`+`) and select a source (for example "Screen Capture") and configure it as you need
