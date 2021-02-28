@@ -1,9 +1,3 @@
-## Supported tags and respective `Dockerfile` links
-
-* [`latest` _(Dockerfile)_](https://github.com/hrmuwanika/nginx-rtmp-docker/blob/master/Dockerfile)
-
-**Note**: Note: There are [tags for each build date](https://hub.docker.com). If you need to "pin" the Docker image version you use, you can select one of those tags. E.g. `tiangolo/nginx-rtmp:latest-2020-08-16`.
-
 # nginx-rtmp
 
 [**Docker**](https://www.docker.com/) image with [**Nginx**](http://nginx.org/en/) using the [**nginx-rtmp-module**](https://github.com/arut/nginx-rtmp-module) module for live multimedia (video) streaming.
