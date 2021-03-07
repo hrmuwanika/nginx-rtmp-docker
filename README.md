@@ -49,7 +49,7 @@ docker run -d -p 1935:1935 -p 8080:8080 --name nginx-rtmp hrmuwanika/nginx_rtmp
 * Open a [VLC](http://www.videolan.org/vlc/index.html) player (it also works in Raspberry Pi using `omxplayer`)
 * Click in the "Media" menu
 * Click in "Open Network Stream"
-* Enter the URL from above as `http://<ip_of_host>:8080/hls/stream_name.m3u8` replacing `<ip_of_host>` with the IP of the host in which the container is running and `<key>` with the key you created in OBS Studio. For example: `http://45.99.213.78:8080/hls/stream_name.m3u8`
+* Enter the URL from above as `http://<ip_of_host>:8080/hls/stream_name/index.m3u8` or `http://<ip_of_host>:8080/dash/stream_name/index.mpd`replacing `<ip_of_host>` with the IP of the host in which the container is running and `<key>` with the key you created in OBS Studio. For example: `http://45.99.213.78:8080/hls/stream_name/index.m3u8` http://45.99.213.78:8080/dash/stream_name/index.mpd`
 * Click "Play"
 * Now VLC should start playing whatever you are transmitting from OBS Studio
 
